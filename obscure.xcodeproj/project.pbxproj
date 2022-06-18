@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC77ECB0285E0C0800C7A83E /* obscureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77ECAF285E0C0800C7A83E /* obscureApp.swift */; };
+		EC77ECB2285E0C0800C7A83E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77ECB1285E0C0800C7A83E /* ContentView.swift */; };
+		EC77ECB4285E0C0900C7A83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC77ECB3285E0C0900C7A83E /* Assets.xcassets */; };
+		EC77ECB7285E0C0900C7A83E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC77ECB6285E0C0900C7A83E /* Preview Assets.xcassets */; };
+		EC77ECB9285E0C0900C7A83E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77ECB8285E0C0900C7A83E /* Persistence.swift */; };
+		EC77ECBC285E0C0900C7A83E /* obscure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC77ECBA285E0C0900C7A83E /* obscure.xcdatamodeld */; };
+		EC77ECC7285E0C0900C7A83E /* obscureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77ECC6285E0C0900C7A83E /* obscureTests.swift */; };
+		EC77ECD1285E0C0900C7A83E /* obscureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77ECD0285E0C0900C7A83E /* obscureUITests.swift */; };
+		EC77ECD3285E0C0900C7A83E /* obscureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77ECD2285E0C0900C7A83E /* obscureUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC77ECC3285E0C0900C7A83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC77ECA4285E0C0800C7A83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC77ECAB285E0C0800C7A83E;
+			remoteInfo = obscure;
+		};
+		EC77ECCD285E0C0900C7A83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC77ECA4285E0C0800C7A83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC77ECAB285E0C0800C7A83E;
+			remoteInfo = obscure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC77ECAC285E0C0800C7A83E /* obscure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = obscure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC77ECAF285E0C0800C7A83E /* obscureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obscureApp.swift; sourceTree = "<group>"; };
+		EC77ECB1285E0C0800C7A83E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC77ECB3285E0C0900C7A83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC77ECB6285E0C0900C7A83E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC77ECB8285E0C0900C7A83E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EC77ECBB285E0C0900C7A83E /* obscure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = obscure.xcdatamodel; sourceTree = "<group>"; };
+		EC77ECBD285E0C0900C7A83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC77ECC2285E0C0900C7A83E /* obscureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = obscureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC77ECC6285E0C0900C7A83E /* obscureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obscureTests.swift; sourceTree = "<group>"; };
+		EC77ECCC285E0C0900C7A83E /* obscureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = obscureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC77ECD0285E0C0900C7A83E /* obscureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obscureUITests.swift; sourceTree = "<group>"; };
+		EC77ECD2285E0C0900C7A83E /* obscureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obscureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC77ECA9285E0C0800C7A83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77ECBF285E0C0900C7A83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77ECC9285E0C0900C7A83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC77ECA3285E0C0800C7A83E = {
+			isa = PBXGroup;
+			children = (
+				EC77ECAE285E0C0800C7A83E /* obscure */,
+				EC77ECC5285E0C0900C7A83E /* obscureTests */,
+				EC77ECCF285E0C0900C7A83E /* obscureUITests */,
+				EC77ECAD285E0C0800C7A83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC77ECAD285E0C0800C7A83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC77ECAC285E0C0800C7A83E /* obscure.app */,
+				EC77ECC2285E0C0900C7A83E /* obscureTests.xctest */,
+				EC77ECCC285E0C0900C7A83E /* obscureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC77ECAE285E0C0800C7A83E /* obscure */ = {
+			isa = PBXGroup;
+			children = (
+				EC77ECAF285E0C0800C7A83E /* obscureApp.swift */,
+				EC77ECB1285E0C0800C7A83E /* ContentView.swift */,
+				EC77ECB3285E0C0900C7A83E /* Assets.xcassets */,
+				EC77ECB8285E0C0900C7A83E /* Persistence.swift */,
+				EC77ECBD285E0C0900C7A83E /* Info.plist */,
+				EC77ECBA285E0C0900C7A83E /* obscure.xcdatamodeld */,
+				EC77ECB5285E0C0900C7A83E /* Preview Content */,
+			);
+			path = obscure;
+			sourceTree = "<group>";
+		};
+		EC77ECB5285E0C0900C7A83E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC77ECB6285E0C0900C7A83E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC77ECC5285E0C0900C7A83E /* obscureTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC77ECC6285E0C0900C7A83E /* obscureTests.swift */,
+			);
+			path = obscureTests;
+			sourceTree = "<group>";
+		};
+		EC77ECCF285E0C0900C7A83E /* obscureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC77ECD0285E0C0900C7A83E /* obscureUITests.swift */,
+				EC77ECD2285E0C0900C7A83E /* obscureUITestsLaunchTests.swift */,
+			);
+			path = obscureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC77ECAB285E0C0800C7A83E /* obscure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC77ECD6285E0C0900C7A83E /* Build configuration list for PBXNativeTarget "obscure" */;
+			buildPhases = (
+				EC77ECA8285E0C0800C7A83E /* Sources */,
+				EC77ECA9285E0C0800C7A83E /* Frameworks */,
+				EC77ECAA285E0C0800C7A83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = obscure;
+			productName = obscure;
+			productReference = EC77ECAC285E0C0800C7A83E /* obscure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC77ECC1285E0C0900C7A83E /* obscureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC77ECD9285E0C0900C7A83E /* Build configuration list for PBXNativeTarget "obscureTests" */;
+			buildPhases = (
+				EC77ECBE285E0C0900C7A83E /* Sources */,
+				EC77ECBF285E0C0900C7A83E /* Frameworks */,
+				EC77ECC0285E0C0900C7A83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC77ECC4285E0C0900C7A83E /* PBXTargetDependency */,
+			);
+			name = obscureTests;
+			productName = obscureTests;
+			productReference = EC77ECC2285E0C0900C7A83E /* obscureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC77ECCB285E0C0900C7A83E /* obscureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC77ECDC285E0C0900C7A83E /* Build configuration list for PBXNativeTarget "obscureUITests" */;
+			buildPhases = (
+				EC77ECC8285E0C0900C7A83E /* Sources */,
+				EC77ECC9285E0C0900C7A83E /* Frameworks */,
+				EC77ECCA285E0C0900C7A83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC77ECCE285E0C0900C7A83E /* PBXTargetDependency */,
+			);
+			name = obscureUITests;
+			productName = obscureUITests;
+			productReference = EC77ECCC285E0C0900C7A83E /* obscureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC77ECA4285E0C0800C7A83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					EC77ECAB285E0C0800C7A83E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					EC77ECC1285E0C0900C7A83E = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = EC77ECAB285E0C0800C7A83E;
+					};
+					EC77ECCB285E0C0900C7A83E = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = EC77ECAB285E0C0800C7A83E;
+					};
+				};
+			};
+			buildConfigurationList = EC77ECA7285E0C0800C7A83E /* Build configuration list for PBXProject "obscure" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC77ECA3285E0C0800C7A83E;
+			productRefGroup = EC77ECAD285E0C0800C7A83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC77ECAB285E0C0800C7A83E /* obscure */,
+				EC77ECC1285E0C0900C7A83E /* obscureTests */,
+				EC77ECCB285E0C0900C7A83E /* obscureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC77ECAA285E0C0800C7A83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC77ECB7285E0C0900C7A83E /* Preview Assets.xcassets in Resources */,
+				EC77ECB4285E0C0900C7A83E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77ECC0285E0C0900C7A83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77ECCA285E0C0900C7A83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC77ECA8285E0C0800C7A83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC77ECB9285E0C0900C7A83E /* Persistence.swift in Sources */,
+				EC77ECB2285E0C0800C7A83E /* ContentView.swift in Sources */,
+				EC77ECB0285E0C0800C7A83E /* obscureApp.swift in Sources */,
+				EC77ECBC285E0C0900C7A83E /* obscure.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77ECBE285E0C0900C7A83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC77ECC7285E0C0900C7A83E /* obscureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77ECC8285E0C0900C7A83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC77ECD3285E0C0900C7A83E /* obscureUITestsLaunchTests.swift in Sources */,
+				EC77ECD1285E0C0900C7A83E /* obscureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC77ECC4285E0C0900C7A83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC77ECAB285E0C0800C7A83E /* obscure */;
+			targetProxy = EC77ECC3285E0C0900C7A83E /* PBXContainerItemProxy */;
+		};
+		EC77ECCE285E0C0900C7A83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC77ECAB285E0C0800C7A83E /* obscure */;
+			targetProxy = EC77ECCD285E0C0900C7A83E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC77ECD4285E0C0900C7A83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC77ECD5285E0C0900C7A83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC77ECD7285E0C0900C7A83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"obscure/Preview Content\"";
+				DEVELOPMENT_TEAM = S3Q6296KQQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dabos.obscure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC77ECD8285E0C0900C7A83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"obscure/Preview Content\"";
+				DEVELOPMENT_TEAM = S3Q6296KQQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dabos.obscure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC77ECDA285E0C0900C7A83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3Q6296KQQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dabos.obscureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/obscure.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/obscure";
+			};
+			name = Debug;
+		};
+		EC77ECDB285E0C0900C7A83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3Q6296KQQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dabos.obscureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/obscure.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/obscure";
+			};
+			name = Release;
+		};
+		EC77ECDD285E0C0900C7A83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3Q6296KQQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dabos.obscureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = obscure;
+			};
+			name = Debug;
+		};
+		EC77ECDE285E0C0900C7A83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3Q6296KQQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dabos.obscureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = obscure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC77ECA7285E0C0800C7A83E /* Build configuration list for PBXProject "obscure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC77ECD4285E0C0900C7A83E /* Debug */,
+				EC77ECD5285E0C0900C7A83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC77ECD6285E0C0900C7A83E /* Build configuration list for PBXNativeTarget "obscure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC77ECD7285E0C0900C7A83E /* Debug */,
+				EC77ECD8285E0C0900C7A83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC77ECD9285E0C0900C7A83E /* Build configuration list for PBXNativeTarget "obscureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC77ECDA285E0C0900C7A83E /* Debug */,
+				EC77ECDB285E0C0900C7A83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC77ECDC285E0C0900C7A83E /* Build configuration list for PBXNativeTarget "obscureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC77ECDD285E0C0900C7A83E /* Debug */,
+				EC77ECDE285E0C0900C7A83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC77ECBA285E0C0900C7A83E /* obscure.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC77ECBB285E0C0900C7A83E /* obscure.xcdatamodel */,
+			);
+			currentVersion = EC77ECBB285E0C0900C7A83E /* obscure.xcdatamodel */;
+			path = obscure.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC77ECA4285E0C0800C7A83E /* Project object */;
+}
